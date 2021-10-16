@@ -24,6 +24,8 @@
 		1091C266271A889F002CA057 /* FamilyStatusPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C265271A889F002CA057 /* FamilyStatusPickerDelegate.swift */; };
 		1091C269271A89AB002CA057 /* IssuedByPickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C268271A89AB002CA057 /* IssuedByPickerDataSource.swift */; };
 		1091C26C271A8A00002CA057 /* IssuedByPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C26B271A8A00002CA057 /* IssuedByPickerDelegate.swift */; };
+		1091C274271AA34C002CA057 /* LoanConfirmationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C273271AA34C002CA057 /* LoanConfirmationPage.swift */; };
+		1091C278271AA38D002CA057 /* LoanConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C277271AA38D002CA057 /* LoanConfirmationView.swift */; };
 		647D70C685DDD1892FD53559 /* Pods_hcb_hackaton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA678308762E306903D8FA13 /* Pods_hcb_hackaton.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		1091C265271A889F002CA057 /* FamilyStatusPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyStatusPickerDelegate.swift; sourceTree = "<group>"; };
 		1091C268271A89AB002CA057 /* IssuedByPickerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuedByPickerDataSource.swift; sourceTree = "<group>"; };
 		1091C26B271A8A00002CA057 /* IssuedByPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuedByPickerDelegate.swift; sourceTree = "<group>"; };
+		1091C273271AA34C002CA057 /* LoanConfirmationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanConfirmationPage.swift; sourceTree = "<group>"; };
+		1091C277271AA38D002CA057 /* LoanConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanConfirmationView.swift; sourceTree = "<group>"; };
 		63223CF3D121667333613DC5 /* Pods-hcb-hackaton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hcb-hackaton.release.xcconfig"; path = "Target Support Files/Pods-hcb-hackaton/Pods-hcb-hackaton.release.xcconfig"; sourceTree = "<group>"; };
 		866915577F00E5BD69DFFCAA /* Pods-hcb-hackaton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hcb-hackaton.debug.xcconfig"; path = "Target Support Files/Pods-hcb-hackaton/Pods-hcb-hackaton.debug.xcconfig"; sourceTree = "<group>"; };
 		BA678308762E306903D8FA13 /* Pods_hcb_hackaton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hcb_hackaton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +89,7 @@
 		1091C205271A59F7002CA057 /* hcb-hackaton */ = {
 			isa = PBXGroup;
 			children = (
+				1091C271271AA333002CA057 /* LoanConfirmation */,
 				1091C231271A631E002CA057 /* Helpers */,
 				1091C21C271A5A6B002CA057 /* LoanProcess */,
 				1091C206271A59F7002CA057 /* AppDelegate.swift */,
@@ -153,6 +158,31 @@
 				1091C26B271A8A00002CA057 /* IssuedByPickerDelegate.swift */,
 			);
 			path = Pickers;
+			sourceTree = "<group>";
+		};
+		1091C271271AA333002CA057 /* LoanConfirmation */ = {
+			isa = PBXGroup;
+			children = (
+				1091C276271AA383002CA057 /* View */,
+				1091C272271AA33C002CA057 /* Page */,
+			);
+			path = LoanConfirmation;
+			sourceTree = "<group>";
+		};
+		1091C272271AA33C002CA057 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				1091C273271AA34C002CA057 /* LoanConfirmationPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		1091C276271AA383002CA057 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1091C277271AA38D002CA057 /* LoanConfirmationView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		12D666D00888D046BD4151B9 /* Frameworks */ = {
@@ -290,9 +320,11 @@
 				1091C241271A7328002CA057 /* SelectTextField.swift in Sources */,
 				1091C233271A632D002CA057 /* Fonts.swift in Sources */,
 				1091C23A271A68FC002CA057 /* Colors.swift in Sources */,
+				1091C274271AA34C002CA057 /* LoanConfirmationPage.swift in Sources */,
 				1091C23E271A71BA002CA057 /* RegularTextField.swift in Sources */,
 				1091C266271A889F002CA057 /* FamilyStatusPickerDelegate.swift in Sources */,
 				1091C247271A75D1002CA057 /* DateTextField.swift in Sources */,
+				1091C278271AA38D002CA057 /* LoanConfirmationView.swift in Sources */,
 				1091C225271A5BB0002CA057 /* LoanProcessPage.swift in Sources */,
 				1091C244271A7443002CA057 /* Images.swift in Sources */,
 				1091C22A271A5CE4002CA057 /* LoanProcessView.swift in Sources */,

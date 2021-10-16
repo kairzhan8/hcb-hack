@@ -10,4 +10,6 @@ import Foundation
 struct Images {
     static let bottomArrow = "bottom-arrow"
     static let datePicker = "date-picker"
+    static let documents = "documents"
+    static let checkbox = "checkbox"
 }
