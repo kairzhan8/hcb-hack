@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1091C207271A59F7002CA057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C206271A59F7002CA057 /* AppDelegate.swift */; };
-		1091C209271A59F7002CA057 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C208271A59F7002CA057 /* SceneDelegate.swift */; };
-		1091C20B271A59F7002CA057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C20A271A59F7002CA057 /* ViewController.swift */; };
-		1091C20E271A59F7002CA057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1091C20C271A59F7002CA057 /* Main.storyboard */; };
 		1091C210271A59F8002CA057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1091C20F271A59F8002CA057 /* Assets.xcassets */; };
 		1091C213271A59F8002CA057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1091C211271A59F8002CA057 /* LaunchScreen.storyboard */; };
+		1091C225271A5BB0002CA057 /* LoanProcessPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C224271A5BB0002CA057 /* LoanProcessPage.swift */; };
+		1091C22A271A5CE4002CA057 /* LoanProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C229271A5CE4002CA057 /* LoanProcessView.swift */; };
+		1091C233271A632D002CA057 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C232271A632D002CA057 /* Fonts.swift */; };
+		1091C23A271A68FC002CA057 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C239271A68FC002CA057 /* Colors.swift */; };
+		1091C23E271A71BA002CA057 /* RegularTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C23D271A71BA002CA057 /* RegularTextField.swift */; };
+		1091C241271A7328002CA057 /* SelectTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C240271A7328002CA057 /* SelectTextField.swift */; };
+		1091C244271A7443002CA057 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C243271A7443002CA057 /* Images.swift */; };
+		1091C247271A75D1002CA057 /* DateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C246271A75D1002CA057 /* DateTextField.swift */; };
+		1091C259271A7BEA002CA057 /* EmploymentTypePickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C258271A7BEA002CA057 /* EmploymentTypePickerDataSource.swift */; };
+		1091C25D271A7C4A002CA057 /* EmploymentTypePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C25C271A7C4A002CA057 /* EmploymentTypePickerDelegate.swift */; };
+		1091C263271A881A002CA057 /* FamilyStatusPickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C262271A881A002CA057 /* FamilyStatusPickerDataSource.swift */; };
+		1091C266271A889F002CA057 /* FamilyStatusPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C265271A889F002CA057 /* FamilyStatusPickerDelegate.swift */; };
+		1091C269271A89AB002CA057 /* IssuedByPickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C268271A89AB002CA057 /* IssuedByPickerDataSource.swift */; };
+		1091C26C271A8A00002CA057 /* IssuedByPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C26B271A8A00002CA057 /* IssuedByPickerDelegate.swift */; };
+		647D70C685DDD1892FD53559 /* Pods_hcb_hackaton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA678308762E306903D8FA13 /* Pods_hcb_hackaton.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1091C203271A59F7002CA057 /* hcb-hackaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hcb-hackaton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1091C206271A59F7002CA057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1091C208271A59F7002CA057 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1091C20A271A59F7002CA057 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1091C20D271A59F7002CA057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1091C20F271A59F8002CA057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1091C212271A59F8002CA057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1091C214271A59F8002CA057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1091C224271A5BB0002CA057 /* LoanProcessPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanProcessPage.swift; sourceTree = "<group>"; };
+		1091C229271A5CE4002CA057 /* LoanProcessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanProcessView.swift; sourceTree = "<group>"; };
+		1091C232271A632D002CA057 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		1091C239271A68FC002CA057 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1091C23D271A71BA002CA057 /* RegularTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularTextField.swift; sourceTree = "<group>"; };
+		1091C240271A7328002CA057 /* SelectTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTextField.swift; sourceTree = "<group>"; };
+		1091C243271A7443002CA057 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		1091C246271A75D1002CA057 /* DateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTextField.swift; sourceTree = "<group>"; };
+		1091C258271A7BEA002CA057 /* EmploymentTypePickerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmploymentTypePickerDataSource.swift; sourceTree = "<group>"; };
+		1091C25C271A7C4A002CA057 /* EmploymentTypePickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmploymentTypePickerDelegate.swift; sourceTree = "<group>"; };
+		1091C262271A881A002CA057 /* FamilyStatusPickerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyStatusPickerDataSource.swift; sourceTree = "<group>"; };
+		1091C265271A889F002CA057 /* FamilyStatusPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyStatusPickerDelegate.swift; sourceTree = "<group>"; };
+		1091C268271A89AB002CA057 /* IssuedByPickerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuedByPickerDataSource.swift; sourceTree = "<group>"; };
+		1091C26B271A8A00002CA057 /* IssuedByPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuedByPickerDelegate.swift; sourceTree = "<group>"; };
+		63223CF3D121667333613DC5 /* Pods-hcb-hackaton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hcb-hackaton.release.xcconfig"; path = "Target Support Files/Pods-hcb-hackaton/Pods-hcb-hackaton.release.xcconfig"; sourceTree = "<group>"; };
+		866915577F00E5BD69DFFCAA /* Pods-hcb-hackaton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hcb-hackaton.debug.xcconfig"; path = "Target Support Files/Pods-hcb-hackaton/Pods-hcb-hackaton.debug.xcconfig"; sourceTree = "<group>"; };
+		BA678308762E306903D8FA13 /* Pods_hcb_hackaton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hcb_hackaton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				647D70C685DDD1892FD53559 /* Pods_hcb_hackaton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,8 @@
 			children = (
 				1091C205271A59F7002CA057 /* hcb-hackaton */,
 				1091C204271A59F7002CA057 /* Products */,
+				435D9141C71B5D6D8853A22F /* Pods */,
+				12D666D00888D046BD4151B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,91 @@
 		1091C205271A59F7002CA057 /* hcb-hackaton */ = {
 			isa = PBXGroup;
 			children = (
+				1091C231271A631E002CA057 /* Helpers */,
+				1091C21C271A5A6B002CA057 /* LoanProcess */,
 				1091C206271A59F7002CA057 /* AppDelegate.swift */,
-				1091C208271A59F7002CA057 /* SceneDelegate.swift */,
-				1091C20A271A59F7002CA057 /* ViewController.swift */,
-				1091C20C271A59F7002CA057 /* Main.storyboard */,
 				1091C20F271A59F8002CA057 /* Assets.xcassets */,
 				1091C211271A59F8002CA057 /* LaunchScreen.storyboard */,
 				1091C214271A59F8002CA057 /* Info.plist */,
 			);
 			path = "hcb-hackaton";
+			sourceTree = "<group>";
+		};
+		1091C21C271A5A6B002CA057 /* LoanProcess */ = {
+			isa = PBXGroup;
+			children = (
+				1091C24E271A783C002CA057 /* Pickers */,
+				1091C228271A5CD9002CA057 /* View */,
+				1091C21D271A5AA5002CA057 /* Page */,
+			);
+			path = LoanProcess;
+			sourceTree = "<group>";
+		};
+		1091C21D271A5AA5002CA057 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				1091C224271A5BB0002CA057 /* LoanProcessPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		1091C228271A5CD9002CA057 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1091C229271A5CE4002CA057 /* LoanProcessView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1091C231271A631E002CA057 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1091C249271A7742002CA057 /* TextFields */,
+				1091C232271A632D002CA057 /* Fonts.swift */,
+				1091C239271A68FC002CA057 /* Colors.swift */,
+				1091C243271A7443002CA057 /* Images.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1091C249271A7742002CA057 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				1091C23D271A71BA002CA057 /* RegularTextField.swift */,
+				1091C240271A7328002CA057 /* SelectTextField.swift */,
+				1091C246271A75D1002CA057 /* DateTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		1091C24E271A783C002CA057 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				1091C258271A7BEA002CA057 /* EmploymentTypePickerDataSource.swift */,
+				1091C25C271A7C4A002CA057 /* EmploymentTypePickerDelegate.swift */,
+				1091C262271A881A002CA057 /* FamilyStatusPickerDataSource.swift */,
+				1091C265271A889F002CA057 /* FamilyStatusPickerDelegate.swift */,
+				1091C268271A89AB002CA057 /* IssuedByPickerDataSource.swift */,
+				1091C26B271A8A00002CA057 /* IssuedByPickerDelegate.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		12D666D00888D046BD4151B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA678308762E306903D8FA13 /* Pods_hcb_hackaton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		435D9141C71B5D6D8853A22F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				866915577F00E5BD69DFFCAA /* Pods-hcb-hackaton.debug.xcconfig */,
+				63223CF3D121667333613DC5 /* Pods-hcb-hackaton.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1091C217271A59F8002CA057 /* Build configuration list for PBXNativeTarget "hcb-hackaton" */;
 			buildPhases = (
+				5BB8527EF4BDBDB356822CA2 /* [CP] Check Pods Manifest.lock */,
 				1091C1FF271A59F7002CA057 /* Sources */,
 				1091C200271A59F7002CA057 /* Frameworks */,
 				1091C201271A59F7002CA057 /* Resources */,
+				AEE55A3922F318B73924A4F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +233,79 @@
 			files = (
 				1091C213271A59F8002CA057 /* LaunchScreen.storyboard in Resources */,
 				1091C210271A59F8002CA057 /* Assets.xcassets in Resources */,
-				1091C20E271A59F7002CA057 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BB8527EF4BDBDB356822CA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hcb-hackaton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE55A3922F318B73924A4F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hcb-hackaton/Pods-hcb-hackaton-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hcb-hackaton/Pods-hcb-hackaton-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hcb-hackaton/Pods-hcb-hackaton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1091C1FF271A59F7002CA057 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1091C20B271A59F7002CA057 /* ViewController.swift in Sources */,
+				1091C263271A881A002CA057 /* FamilyStatusPickerDataSource.swift in Sources */,
+				1091C25D271A7C4A002CA057 /* EmploymentTypePickerDelegate.swift in Sources */,
+				1091C241271A7328002CA057 /* SelectTextField.swift in Sources */,
+				1091C233271A632D002CA057 /* Fonts.swift in Sources */,
+				1091C23A271A68FC002CA057 /* Colors.swift in Sources */,
+				1091C23E271A71BA002CA057 /* RegularTextField.swift in Sources */,
+				1091C266271A889F002CA057 /* FamilyStatusPickerDelegate.swift in Sources */,
+				1091C247271A75D1002CA057 /* DateTextField.swift in Sources */,
+				1091C225271A5BB0002CA057 /* LoanProcessPage.swift in Sources */,
+				1091C244271A7443002CA057 /* Images.swift in Sources */,
+				1091C22A271A5CE4002CA057 /* LoanProcessView.swift in Sources */,
 				1091C207271A59F7002CA057 /* AppDelegate.swift in Sources */,
-				1091C209271A59F7002CA057 /* SceneDelegate.swift in Sources */,
+				1091C26C271A8A00002CA057 /* IssuedByPickerDelegate.swift in Sources */,
+				1091C269271A89AB002CA057 /* IssuedByPickerDataSource.swift in Sources */,
+				1091C259271A7BEA002CA057 /* EmploymentTypePickerDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1091C20C271A59F7002CA057 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1091C20D271A59F7002CA057 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1091C211271A59F8002CA057 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +435,7 @@
 		};
 		1091C218271A59F8002CA057 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 866915577F00E5BD69DFFCAA /* Pods-hcb-hackaton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +455,7 @@
 		};
 		1091C219271A59F8002CA057 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63223CF3D121667333613DC5 /* Pods-hcb-hackaton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
