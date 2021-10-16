@@ -9,10 +9,13 @@ import UIKit
 import SnapKit
 
 final class LoanConfirmationView: UIView {
+    var handleCondition: (() -> Void)?
+    var handleDocuments: (() -> Void)?
+    
     private let scrollView = UIScrollView()
     
     private lazy var mainStackView: UIStackView = {
-        let stack = UIStackView(arrangedSubviews: [titleLabel, infoView, documentsButton, confirmButton])
+        let stack = UIStackView(arrangedSubviews: [titleLabel, infoView, documentsButton, checkboxStack])
         stack.axis = .vertical
         stack.spacing = 20
         return stack
@@ -204,26 +207,29 @@ final class LoanConfirmationView: UIView {
         return btn
     }()
     
-    let confirmButton: UIButton = {
+    let checkboxButton: UIButton = {
         let btn = UIButton()
-        btn.backgroundColor = .white
-        btn.setTitle("Подтверждение (какой то текст)", for: .normal)
-        btn.setImage(UIImage(named: Images.checkbox), for: .normal)
-        btn.layer.cornerRadius = 6
-        btn.layer.borderColor = Colors.gray.cgColor
-        btn.layer.borderWidth = 1
+        btn.setImage(UIImage(named: Images.unchecked), for: .normal)
         btn.contentHorizontalAlignment = .left
-        btn.imageEdgeInsets = .init(top: 0, left: 16, bottom: 0, right: 0)
-        btn.titleEdgeInsets = .init(top: 0, left: 24, bottom: 0, right: 0)
-        btn.setTitleColor(.black, for: .normal)
         return btn
+    }()
+    
+    let confirmButton = UIButton.customSystemButton(title: "Я подтверждаю, что ознакомлен \nс информацией ", subtitle: "об условиях кредитования")
+    
+    private lazy var checkboxStack: UIStackView = {
+        let stack = UIStackView(arrangedSubviews: [checkboxButton, confirmButton])
+        stack.axis = .horizontal
+        stack.distribution = .fillProportionally
+        stack.spacing = 10
+        return stack
     }()
     
     let nextButton: UIButton = {
         let btn = UIButton()
-        btn.backgroundColor = Colors.red
+        btn.backgroundColor = .gray
         btn.setTitle("Подтвердить", for: .normal)
         btn.setTitleColor(.white, for: .normal)
+        btn.titleLabel?.font = .medium14
         btn.layer.cornerRadius = 6
         return btn
     }()
@@ -235,6 +241,7 @@ final class LoanConfirmationView: UIView {
 }
 
 private extension LoanConfirmationView {
+    
     func setup() {
         backgroundColor = .white
         addSubview(scrollView)
@@ -248,7 +255,27 @@ private extension LoanConfirmationView {
         }
         infoView.addSubview(infoStackView)
         addSubview(nextButton)
+        confirmButton.contentHorizontalAlignment = .left
         makeConstraints()
+        confirmButton.addTarget(self, action: #selector(handleConditions), for: .touchUpInside)
+        checkboxButton.addTarget(self, action: #selector(handleCheckbox(sender:)), for: .touchUpInside)
+        documentsButton.addTarget(self, action: #selector(handleDocument), for: .touchUpInside)
+    }
+    
+    @objc func handleConditions() {
+        handleCondition?()
+    }
+    
+    @objc func handleDocument() {
+        handleDocuments?()
+    }
+    
+    @objc func handleCheckbox(sender: UIButton) {
+        sender.checkboxAnimation {
+            sender.isSelected ? self.checkboxButton.setImage(UIImage(named: Images.checked), for: .normal) : self.checkboxButton.setImage(UIImage(named: Images.unchecked), for: .normal)
+            self.nextButton.isEnabled = sender.isSelected
+            self.nextButton.backgroundColor = self.nextButton.isEnabled ? .red : .gray
+        }
     }
     
     func makeConstraints() {
