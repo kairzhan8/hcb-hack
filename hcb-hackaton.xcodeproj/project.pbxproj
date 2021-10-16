@@ -26,6 +26,18 @@
 		1091C26C271A8A00002CA057 /* IssuedByPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C26B271A8A00002CA057 /* IssuedByPickerDelegate.swift */; };
 		1091C274271AA34C002CA057 /* LoanConfirmationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C273271AA34C002CA057 /* LoanConfirmationPage.swift */; };
 		1091C278271AA38D002CA057 /* LoanConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C277271AA38D002CA057 /* LoanConfirmationView.swift */; };
+		1091C280271AF096002CA057 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C27F271AF096002CA057 /* UIButton + Extension.swift */; };
+		1091C285271AF6DE002CA057 /* DocumentsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C284271AF6DE002CA057 /* DocumentsPage.swift */; };
+		1091C289271AF70E002CA057 /* DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C288271AF70E002CA057 /* DocumentsView.swift */; };
+		1091C291271AFBE5002CA057 /* EKAttributes + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C290271AFBE5002CA057 /* EKAttributes + Extension.swift */; };
+		1091C296271B2A1C002CA057 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C295271B2A1C002CA057 /* AlertView.swift */; };
+		1091C29B271B2E88002CA057 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C29A271B2E88002CA057 /* AlertModel.swift */; };
+		1091C2AD271B4874002CA057 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C2AC271B4874002CA057 /* LoaderView.swift */; };
+		1091C2B2271B4F42002CA057 /* QRPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C2B1271B4F42002CA057 /* QRPage.swift */; };
+		1091C2B6271B4F61002CA057 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C2B5271B4F61002CA057 /* QRView.swift */; };
+		1091C2BC271B5B5F002CA057 /* SuccessPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C2BB271B5B5F002CA057 /* SuccessPage.swift */; };
+		1091C2C0271B5B79002CA057 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C2BF271B5B79002CA057 /* SuccessView.swift */; };
+		1091C2C4271B62B1002CA057 /* LoaderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C2C3271B62B1002CA057 /* LoaderPage.swift */; };
 		647D70C685DDD1892FD53559 /* Pods_hcb_hackaton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA678308762E306903D8FA13 /* Pods_hcb_hackaton.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +63,18 @@
 		1091C26B271A8A00002CA057 /* IssuedByPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuedByPickerDelegate.swift; sourceTree = "<group>"; };
 		1091C273271AA34C002CA057 /* LoanConfirmationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanConfirmationPage.swift; sourceTree = "<group>"; };
 		1091C277271AA38D002CA057 /* LoanConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanConfirmationView.swift; sourceTree = "<group>"; };
+		1091C27F271AF096002CA057 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		1091C284271AF6DE002CA057 /* DocumentsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsPage.swift; sourceTree = "<group>"; };
+		1091C288271AF70E002CA057 /* DocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsView.swift; sourceTree = "<group>"; };
+		1091C290271AFBE5002CA057 /* EKAttributes + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKAttributes + Extension.swift"; sourceTree = "<group>"; };
+		1091C295271B2A1C002CA057 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		1091C29A271B2E88002CA057 /* AlertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		1091C2AC271B4874002CA057 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		1091C2B1271B4F42002CA057 /* QRPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRPage.swift; sourceTree = "<group>"; };
+		1091C2B5271B4F61002CA057 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
+		1091C2BB271B5B5F002CA057 /* SuccessPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPage.swift; sourceTree = "<group>"; };
+		1091C2BF271B5B79002CA057 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		1091C2C3271B62B1002CA057 /* LoaderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderPage.swift; sourceTree = "<group>"; };
 		63223CF3D121667333613DC5 /* Pods-hcb-hackaton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hcb-hackaton.release.xcconfig"; path = "Target Support Files/Pods-hcb-hackaton/Pods-hcb-hackaton.release.xcconfig"; sourceTree = "<group>"; };
 		866915577F00E5BD69DFFCAA /* Pods-hcb-hackaton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hcb-hackaton.debug.xcconfig"; path = "Target Support Files/Pods-hcb-hackaton/Pods-hcb-hackaton.debug.xcconfig"; sourceTree = "<group>"; };
 		BA678308762E306903D8FA13 /* Pods_hcb_hackaton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hcb_hackaton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +113,11 @@
 		1091C205271A59F7002CA057 /* hcb-hackaton */ = {
 			isa = PBXGroup;
 			children = (
+				1091C2B9271B5B54002CA057 /* Success */,
+				1091C2AF271B4F33002CA057 /* QR */,
+				1091C2AA271B4866002CA057 /* Loader */,
+				1091C293271B2A09002CA057 /* Alert */,
+				1091C282271AF6CE002CA057 /* Documents */,
 				1091C271271AA333002CA057 /* LoanConfirmation */,
 				1091C231271A631E002CA057 /* Helpers */,
 				1091C21C271A5A6B002CA057 /* LoanProcess */,
@@ -133,6 +162,8 @@
 				1091C232271A632D002CA057 /* Fonts.swift */,
 				1091C239271A68FC002CA057 /* Colors.swift */,
 				1091C243271A7443002CA057 /* Images.swift */,
+				1091C27F271AF096002CA057 /* UIButton + Extension.swift */,
+				1091C290271AFBE5002CA057 /* EKAttributes + Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -183,6 +214,131 @@
 				1091C277271AA38D002CA057 /* LoanConfirmationView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		1091C282271AF6CE002CA057 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				1091C287271AF703002CA057 /* View */,
+				1091C283271AF6D4002CA057 /* Page */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		1091C283271AF6D4002CA057 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				1091C284271AF6DE002CA057 /* DocumentsPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		1091C287271AF703002CA057 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1091C288271AF70E002CA057 /* DocumentsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1091C293271B2A09002CA057 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				1091C299271B2E7F002CA057 /* Model */,
+				1091C294271B2A14002CA057 /* View */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		1091C294271B2A14002CA057 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1091C295271B2A1C002CA057 /* AlertView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1091C299271B2E7F002CA057 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1091C29A271B2E88002CA057 /* AlertModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1091C2AA271B4866002CA057 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				1091C2C2271B629D002CA057 /* Page */,
+				1091C2AB271B486C002CA057 /* View */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		1091C2AB271B486C002CA057 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1091C2AC271B4874002CA057 /* LoaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1091C2AF271B4F33002CA057 /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				1091C2B4271B4F5A002CA057 /* View */,
+				1091C2B0271B4F3A002CA057 /* Page */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		1091C2B0271B4F3A002CA057 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				1091C2B1271B4F42002CA057 /* QRPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		1091C2B4271B4F5A002CA057 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1091C2B5271B4F61002CA057 /* QRView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1091C2B9271B5B54002CA057 /* Success */ = {
+			isa = PBXGroup;
+			children = (
+				1091C2BE271B5B70002CA057 /* View */,
+				1091C2BA271B5B58002CA057 /* Page */,
+			);
+			path = Success;
+			sourceTree = "<group>";
+		};
+		1091C2BA271B5B58002CA057 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				1091C2BB271B5B5F002CA057 /* SuccessPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		1091C2BE271B5B70002CA057 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1091C2BF271B5B79002CA057 /* SuccessView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1091C2C2271B629D002CA057 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				1091C2C3271B62B1002CA057 /* LoaderPage.swift */,
+			);
+			path = Page;
 			sourceTree = "<group>";
 		};
 		12D666D00888D046BD4151B9 /* Frameworks */ = {
@@ -316,19 +472,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				1091C263271A881A002CA057 /* FamilyStatusPickerDataSource.swift in Sources */,
+				1091C2B6271B4F61002CA057 /* QRView.swift in Sources */,
 				1091C25D271A7C4A002CA057 /* EmploymentTypePickerDelegate.swift in Sources */,
 				1091C241271A7328002CA057 /* SelectTextField.swift in Sources */,
+				1091C296271B2A1C002CA057 /* AlertView.swift in Sources */,
+				1091C2BC271B5B5F002CA057 /* SuccessPage.swift in Sources */,
+				1091C291271AFBE5002CA057 /* EKAttributes + Extension.swift in Sources */,
+				1091C2AD271B4874002CA057 /* LoaderView.swift in Sources */,
 				1091C233271A632D002CA057 /* Fonts.swift in Sources */,
 				1091C23A271A68FC002CA057 /* Colors.swift in Sources */,
+				1091C280271AF096002CA057 /* UIButton + Extension.swift in Sources */,
+				1091C285271AF6DE002CA057 /* DocumentsPage.swift in Sources */,
 				1091C274271AA34C002CA057 /* LoanConfirmationPage.swift in Sources */,
 				1091C23E271A71BA002CA057 /* RegularTextField.swift in Sources */,
 				1091C266271A889F002CA057 /* FamilyStatusPickerDelegate.swift in Sources */,
 				1091C247271A75D1002CA057 /* DateTextField.swift in Sources */,
+				1091C29B271B2E88002CA057 /* AlertModel.swift in Sources */,
+				1091C289271AF70E002CA057 /* DocumentsView.swift in Sources */,
 				1091C278271AA38D002CA057 /* LoanConfirmationView.swift in Sources */,
+				1091C2C4271B62B1002CA057 /* LoaderPage.swift in Sources */,
 				1091C225271A5BB0002CA057 /* LoanProcessPage.swift in Sources */,
+				1091C2C0271B5B79002CA057 /* SuccessView.swift in Sources */,
 				1091C244271A7443002CA057 /* Images.swift in Sources */,
 				1091C22A271A5CE4002CA057 /* LoanProcessView.swift in Sources */,
 				1091C207271A59F7002CA057 /* AppDelegate.swift in Sources */,
+				1091C2B2271B4F42002CA057 /* QRPage.swift in Sources */,
 				1091C26C271A8A00002CA057 /* IssuedByPickerDelegate.swift in Sources */,
 				1091C269271A89AB002CA057 /* IssuedByPickerDataSource.swift in Sources */,
 				1091C259271A7BEA002CA057 /* EmploymentTypePickerDataSource.swift in Sources */,
