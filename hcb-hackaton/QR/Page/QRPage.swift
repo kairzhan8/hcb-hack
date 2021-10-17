@@ -19,5 +19,13 @@ final class QRPage: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let tapgesture = UITapGestureRecognizer(target: self, action: #selector(touched))
+        self.view.addGestureRecognizer(tapgesture)
+    }
+    
+    @objc func touched() {
+        let vc = SuccessPage()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
