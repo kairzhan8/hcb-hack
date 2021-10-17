@@ -25,11 +25,17 @@ final class BasketPage: UIViewController {
     let bottomPriceView: BasketPriceView = {
         let view = BasketPriceView()
         view.addButton.addTarget(self, action: #selector(addTouched), for: .touchUpInside)
+        view.nextButton.addTarget(self, action: #selector(nextTouched), for: .touchUpInside)
         return view
     }()
     
     @objc func addTouched() {
         self.navigationController?.popViewController(animated: true)
+    }
+    
+    @objc func nextTouched() {
+        let loanConfirm = LoanProcessPage()
+        self.navigationController?.pushViewController(loanConfirm, animated: true)
     }
     
     let monthView: TrippleMonthView = {

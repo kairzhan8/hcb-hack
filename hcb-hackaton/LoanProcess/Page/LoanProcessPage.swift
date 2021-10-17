@@ -32,6 +32,19 @@ final class LoanProcessPage: UIViewController {
         super.viewDidLoad()
         setupPickers()
         dismissPickerView()
+        rootView.nextButton.addTarget(self, action: #selector(nextTouched), for: .touchUpInside)
+    }
+    
+    @objc func nextTouched() {
+        let vc = LoaderPage()
+        let tapgesture = UITapGestureRecognizer(target: self, action: #selector(loaderTouched))
+        vc.view.addGestureRecognizer(tapgesture)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func loaderTouched() {
+        let vc = LoanConfirmationPage()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 
