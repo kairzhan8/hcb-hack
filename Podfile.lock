@@ -1,16 +1,28 @@
 PODS:
+  - MBProgressHUD (1.2.0)
+  - QuickLayout (3.0.0)
   - SnapKit (5.0.1)
+  - SwiftEntryKit (1.2.7):
+    - QuickLayout (= 3.0.0)
 
 DEPENDENCIES:
+  - MBProgressHUD (~> 1.2.0)
   - SnapKit (~> 5.0.0)
+  - SwiftEntryKit
 
 SPEC REPOS:
   trunk:
+    - MBProgressHUD
+    - QuickLayout
     - SnapKit
+    - SwiftEntryKit
 
 SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  QuickLayout: 07b45a72b10083fee3f095990cfed1c1e7b27f0a
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftEntryKit: 537c92699d6034efb1ef9c32b11e0b37c97aa589
 
-PODFILE CHECKSUM: 5cde7bf089280aa9f8bb48f7f98c573ef8ed111a
+PODFILE CHECKSUM: 77d31609453eb0603f7860a952a15e5a25ea66ed
 
 COCOAPODS: 1.11.2

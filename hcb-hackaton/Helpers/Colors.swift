@@ -12,4 +12,5 @@ struct Colors {
     static let red = UIColor(red: 255/255, green: 22/255, blue: 53/255, alpha: 1)
     static let mainBlack = hexColor(hex: "#131525")
     static let secondaryGray = hexColor(hex: "#65687B")
+    static let pink = UIColor(red: 254/255, green: 233/255, blue: 232/255, alpha: 1)
 }

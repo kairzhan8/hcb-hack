@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import SafariServices
+import SwiftEntryKit
 
 final class LoanConfirmationPage: UIViewController {
     
@@ -19,5 +21,22 @@ final class LoanConfirmationPage: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        rootView.handleCondition = { [weak self] in
+            self?.presentSafariVC(with: (URL(string: "https://web.stanford.edu/class/archive/cs/cs161/cs161.1168/lecture4.pdf"))!)
+        }
+        rootView.handleDocuments = {
+            let view = DocumentsView()
+            var attributes = EKAttributes.partialScreen
+            attributes.positionConstraints.size = .init(width: .offset(value: 0), height: .constant(value: Constants.screenHeight * 0.30))
+            SwiftEntryKit.display(entry: view, using: attributes)
+        }
     }
+    
+    func presentSafariVC(with url: URL) {
+            let safariVC = SFSafariViewController(url: url)
+            safariVC.preferredControlTintColor = .systemGreen
+            present(safariVC, animated: true)
+    }
+    
+    
 }

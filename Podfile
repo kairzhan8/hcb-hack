@@ -7,5 +7,7 @@ target 'hcb-hackaton' do
 
   # Pods for hcb-hackaton
   pod 'SnapKit', '~> 5.0.0'
+  pod 'SwiftEntryKit'
+  pod 'MBProgressHUD', '~> 1.2.0'
 
 end
