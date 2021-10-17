@@ -26,6 +26,20 @@
 		1091C26C271A8A00002CA057 /* IssuedByPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C26B271A8A00002CA057 /* IssuedByPickerDelegate.swift */; };
 		1091C274271AA34C002CA057 /* LoanConfirmationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C273271AA34C002CA057 /* LoanConfirmationPage.swift */; };
 		1091C278271AA38D002CA057 /* LoanConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C277271AA38D002CA057 /* LoanConfirmationView.swift */; };
+		45E7772D271B355C00FC6CB9 /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7772C271B355C00FC6CB9 /* StoriesView.swift */; };
+		45E7772F271B366200FC6CB9 /* StoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7772E271B366200FC6CB9 /* StoriesCell.swift */; };
+		45E77733271B3F1100FC6CB9 /* StoriesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E77732271B3F1100FC6CB9 /* StoriesPage.swift */; };
+		45E77735271B3F3100FC6CB9 /* SegmentedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E77734271B3F3100FC6CB9 /* SegmentedProgressBar.swift */; };
+		45E77737271B509700FC6CB9 /* StoriesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E77736271B509700FC6CB9 /* StoriesAnimator.swift */; };
+		45E7773B271B5AE000FC6CB9 /* BasketPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7773A271B5AE000FC6CB9 /* BasketPage.swift */; };
+		45E7773E271B771400FC6CB9 /* BasketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7773D271B771400FC6CB9 /* BasketItemCell.swift */; };
+		45E77740271B853C00FC6CB9 /* BasketClickableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7773F271B853C00FC6CB9 /* BasketClickableView.swift */; };
+		45E77742271B87D500FC6CB9 /* BasketMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E77741271B87D500FC6CB9 /* BasketMonthView.swift */; };
+		45E77744271B8D2000FC6CB9 /* BasketPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E77743271B8D2000FC6CB9 /* BasketPriceView.swift */; };
+		45E77746271B993800FC6CB9 /* TrippleMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E77745271B993800FC6CB9 /* TrippleMonthView.swift */; };
+		45F5062C271AC9EA0094FBF0 /* QRScanPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F5062B271AC9EA0094FBF0 /* QRScanPage.swift */; };
+		45F5062E271AC9F80094FBF0 /* QRScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F5062D271AC9F80094FBF0 /* QRScanViewModel.swift */; };
+		45F50630271ACAC30094FBF0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F5062F271ACAC30094FBF0 /* Extensions.swift */; };
 		647D70C685DDD1892FD53559 /* Pods_hcb_hackaton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA678308762E306903D8FA13 /* Pods_hcb_hackaton.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +65,20 @@
 		1091C26B271A8A00002CA057 /* IssuedByPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuedByPickerDelegate.swift; sourceTree = "<group>"; };
 		1091C273271AA34C002CA057 /* LoanConfirmationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanConfirmationPage.swift; sourceTree = "<group>"; };
 		1091C277271AA38D002CA057 /* LoanConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanConfirmationView.swift; sourceTree = "<group>"; };
+		45E7772C271B355C00FC6CB9 /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
+		45E7772E271B366200FC6CB9 /* StoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCell.swift; sourceTree = "<group>"; };
+		45E77732271B3F1100FC6CB9 /* StoriesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesPage.swift; sourceTree = "<group>"; };
+		45E77734271B3F3100FC6CB9 /* SegmentedProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProgressBar.swift; sourceTree = "<group>"; };
+		45E77736271B509700FC6CB9 /* StoriesAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesAnimator.swift; sourceTree = "<group>"; };
+		45E7773A271B5AE000FC6CB9 /* BasketPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketPage.swift; sourceTree = "<group>"; };
+		45E7773D271B771400FC6CB9 /* BasketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketItemCell.swift; sourceTree = "<group>"; };
+		45E7773F271B853C00FC6CB9 /* BasketClickableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketClickableView.swift; sourceTree = "<group>"; };
+		45E77741271B87D500FC6CB9 /* BasketMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketMonthView.swift; sourceTree = "<group>"; };
+		45E77743271B8D2000FC6CB9 /* BasketPriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketPriceView.swift; sourceTree = "<group>"; };
+		45E77745271B993800FC6CB9 /* TrippleMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrippleMonthView.swift; sourceTree = "<group>"; };
+		45F5062B271AC9EA0094FBF0 /* QRScanPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanPage.swift; sourceTree = "<group>"; };
+		45F5062D271AC9F80094FBF0 /* QRScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanViewModel.swift; sourceTree = "<group>"; };
+		45F5062F271ACAC30094FBF0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		63223CF3D121667333613DC5 /* Pods-hcb-hackaton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hcb-hackaton.release.xcconfig"; path = "Target Support Files/Pods-hcb-hackaton/Pods-hcb-hackaton.release.xcconfig"; sourceTree = "<group>"; };
 		866915577F00E5BD69DFFCAA /* Pods-hcb-hackaton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hcb-hackaton.debug.xcconfig"; path = "Target Support Files/Pods-hcb-hackaton/Pods-hcb-hackaton.debug.xcconfig"; sourceTree = "<group>"; };
 		BA678308762E306903D8FA13 /* Pods_hcb_hackaton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hcb_hackaton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +117,8 @@
 		1091C205271A59F7002CA057 /* hcb-hackaton */ = {
 			isa = PBXGroup;
 			children = (
+				45E77738271B5ACD00FC6CB9 /* Basket */,
+				45F50626271AC9BB0094FBF0 /* QrScan */,
 				1091C271271AA333002CA057 /* LoanConfirmation */,
 				1091C231271A631E002CA057 /* Helpers */,
 				1091C21C271A5A6B002CA057 /* LoanProcess */,
@@ -133,6 +163,7 @@
 				1091C232271A632D002CA057 /* Fonts.swift */,
 				1091C239271A68FC002CA057 /* Colors.swift */,
 				1091C243271A7443002CA057 /* Images.swift */,
+				45F5062F271ACAC30094FBF0 /* Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -200,6 +231,89 @@
 				63223CF3D121667333613DC5 /* Pods-hcb-hackaton.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		45E77731271B3EF500FC6CB9 /* StoriesPage */ = {
+			isa = PBXGroup;
+			children = (
+				45E77732271B3F1100FC6CB9 /* StoriesPage.swift */,
+				45E77734271B3F3100FC6CB9 /* SegmentedProgressBar.swift */,
+				45E77736271B509700FC6CB9 /* StoriesAnimator.swift */,
+			);
+			path = StoriesPage;
+			sourceTree = "<group>";
+		};
+		45E77738271B5ACD00FC6CB9 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				45E7773C271B76F400FC6CB9 /* View */,
+				45E77739271B5AD200FC6CB9 /* Page */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
+		45E77739271B5AD200FC6CB9 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				45E7773A271B5AE000FC6CB9 /* BasketPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		45E7773C271B76F400FC6CB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45E7773D271B771400FC6CB9 /* BasketItemCell.swift */,
+				45E7773F271B853C00FC6CB9 /* BasketClickableView.swift */,
+				45E77741271B87D500FC6CB9 /* BasketMonthView.swift */,
+				45E77743271B8D2000FC6CB9 /* BasketPriceView.swift */,
+				45E77745271B993800FC6CB9 /* TrippleMonthView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45F50626271AC9BB0094FBF0 /* QrScan */ = {
+			isa = PBXGroup;
+			children = (
+				45E77731271B3EF500FC6CB9 /* StoriesPage */,
+				45F5062A271AC9D90094FBF0 /* View */,
+				45F50629271AC9D50094FBF0 /* Model */,
+				45F50628271AC9CF0094FBF0 /* ViewModel */,
+				45F50627271AC9CC0094FBF0 /* Page */,
+			);
+			path = QrScan;
+			sourceTree = "<group>";
+		};
+		45F50627271AC9CC0094FBF0 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				45F5062B271AC9EA0094FBF0 /* QRScanPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		45F50628271AC9CF0094FBF0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				45F5062D271AC9F80094FBF0 /* QRScanViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		45F50629271AC9D50094FBF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45F5062A271AC9D90094FBF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45E7772C271B355C00FC6CB9 /* StoriesView.swift */,
+				45E7772E271B366200FC6CB9 /* StoriesCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,22 +429,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E77737271B509700FC6CB9 /* StoriesAnimator.swift in Sources */,
+				45F5062C271AC9EA0094FBF0 /* QRScanPage.swift in Sources */,
 				1091C263271A881A002CA057 /* FamilyStatusPickerDataSource.swift in Sources */,
+				45E77740271B853C00FC6CB9 /* BasketClickableView.swift in Sources */,
 				1091C25D271A7C4A002CA057 /* EmploymentTypePickerDelegate.swift in Sources */,
+				45E7772F271B366200FC6CB9 /* StoriesCell.swift in Sources */,
+				45E77733271B3F1100FC6CB9 /* StoriesPage.swift in Sources */,
 				1091C241271A7328002CA057 /* SelectTextField.swift in Sources */,
 				1091C233271A632D002CA057 /* Fonts.swift in Sources */,
 				1091C23A271A68FC002CA057 /* Colors.swift in Sources */,
 				1091C274271AA34C002CA057 /* LoanConfirmationPage.swift in Sources */,
 				1091C23E271A71BA002CA057 /* RegularTextField.swift in Sources */,
 				1091C266271A889F002CA057 /* FamilyStatusPickerDelegate.swift in Sources */,
+				45E77735271B3F3100FC6CB9 /* SegmentedProgressBar.swift in Sources */,
 				1091C247271A75D1002CA057 /* DateTextField.swift in Sources */,
 				1091C278271AA38D002CA057 /* LoanConfirmationView.swift in Sources */,
 				1091C225271A5BB0002CA057 /* LoanProcessPage.swift in Sources */,
 				1091C244271A7443002CA057 /* Images.swift in Sources */,
 				1091C22A271A5CE4002CA057 /* LoanProcessView.swift in Sources */,
 				1091C207271A59F7002CA057 /* AppDelegate.swift in Sources */,
+				45F50630271ACAC30094FBF0 /* Extensions.swift in Sources */,
+				45E77742271B87D500FC6CB9 /* BasketMonthView.swift in Sources */,
+				45E7773B271B5AE000FC6CB9 /* BasketPage.swift in Sources */,
 				1091C26C271A8A00002CA057 /* IssuedByPickerDelegate.swift in Sources */,
+				45E7772D271B355C00FC6CB9 /* StoriesView.swift in Sources */,
 				1091C269271A89AB002CA057 /* IssuedByPickerDataSource.swift in Sources */,
+				45E77744271B8D2000FC6CB9 /* BasketPriceView.swift in Sources */,
+				45E7773E271B771400FC6CB9 /* BasketItemCell.swift in Sources */,
+				45E77746271B993800FC6CB9 /* TrippleMonthView.swift in Sources */,
+				45F5062E271AC9F80094FBF0 /* QRScanViewModel.swift in Sources */,
 				1091C259271A7BEA002CA057 /* EmploymentTypePickerDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,16 +600,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 68F942NMT8;
+				DEVELOPMENT_TEAM = 8XD96ZUA34;
 				INFOPLIST_FILE = "hcb-hackaton/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "S10S.hcb-hackaton";
+				PRODUCT_BUNDLE_IDENTIFIER = "S10S.hcb-hackaton-on";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -492,16 +621,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 68F942NMT8;
+				DEVELOPMENT_TEAM = 8XD96ZUA34;
 				INFOPLIST_FILE = "hcb-hackaton/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "S10S.hcb-hackaton";
+				PRODUCT_BUNDLE_IDENTIFIER = "S10S.hcb-hackaton-on";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

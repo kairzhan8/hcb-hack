@@ -20,7 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     private func setupWindow() {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = LoanProcessPage()
+    
+        let uicontroller = UINavigationController(rootViewController: QRScanPage())
+        window?.rootViewController = uicontroller
         window?.makeKeyAndVisible()
     }
 
