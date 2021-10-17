@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func setupWindow() {
         window = UIWindow(frame: UIScreen.main.bounds)
     
-        let uicontroller = UINavigationController(rootViewController: QRScanPage())
+        let uicontroller = UINavigationController(rootViewController: MainPage())
         window?.rootViewController = uicontroller
         window?.makeKeyAndVisible()
     }

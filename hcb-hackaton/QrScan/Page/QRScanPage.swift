@@ -88,6 +88,8 @@ final class QRScanPage: UIViewController {
         super.viewDidLoad()
         makeUI()
         setQR()
+        navigationController?.navigationBar.barTintColor = .white
+        navigationController?.navigationBar.tintColor = UIColor.black
     }
     
     override func viewWillAppear(_ animated: Bool) {

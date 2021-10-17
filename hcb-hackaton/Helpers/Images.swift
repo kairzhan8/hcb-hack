@@ -20,4 +20,7 @@ struct Images {
     static let success = "success"
     static let warning = "warning"
     static let info = "info"
+    static let buttons = "buttons"
+    static let scan = "scan"
+    static let slider = "slider"
 }
