@@ -39,6 +39,8 @@
 		1091C2C0271B5B79002CA057 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C2BF271B5B79002CA057 /* SuccessView.swift */; };
 		1091C2C4271B62B1002CA057 /* LoaderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091C2C3271B62B1002CA057 /* LoaderPage.swift */; };
 		4529DF32271BE9D20066BBF3 /* FaceCheckPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4529DF31271BE9D20066BBF3 /* FaceCheckPage.swift */; };
+		10F69C5A271BEA2D0050D199 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F69C59271BEA2D0050D199 /* MainPage.swift */; };
+		10F69C5F271BEA470050D199 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F69C5E271BEA470050D199 /* MainView.swift */; };
 		45E7772D271B355C00FC6CB9 /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7772C271B355C00FC6CB9 /* StoriesView.swift */; };
 		45E7772F271B366200FC6CB9 /* StoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7772E271B366200FC6CB9 /* StoriesCell.swift */; };
 		45E77733271B3F1100FC6CB9 /* StoriesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E77732271B3F1100FC6CB9 /* StoriesPage.swift */; };
@@ -91,6 +93,8 @@
 		1091C2BF271B5B79002CA057 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		1091C2C3271B62B1002CA057 /* LoaderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderPage.swift; sourceTree = "<group>"; };
 		4529DF31271BE9D20066BBF3 /* FaceCheckPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCheckPage.swift; sourceTree = "<group>"; };
+		10F69C59271BEA2D0050D199 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		10F69C5E271BEA470050D199 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		45E7772C271B355C00FC6CB9 /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
 		45E7772E271B366200FC6CB9 /* StoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCell.swift; sourceTree = "<group>"; };
 		45E77732271B3F1100FC6CB9 /* StoriesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesPage.swift; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				4529DF30271BE9BF0066BBF3 /* Face */,
+				10F69C57271BEA1B0050D199 /* Main */,
 				45E77738271B5ACD00FC6CB9 /* Basket */,
 				45F50626271AC9BB0094FBF0 /* QrScan */,
 				1091C2B9271B5B54002CA057 /* Success */,
@@ -375,6 +380,31 @@
 			path = Page;
 			sourceTree = "<group>";
 		};
+		10F69C57271BEA1B0050D199 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				10F69C5D271BEA3E0050D199 /* View */,
+				10F69C58271BEA200050D199 /* Page */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		10F69C58271BEA200050D199 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				10F69C59271BEA2D0050D199 /* MainPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		10F69C5D271BEA3E0050D199 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10F69C5E271BEA470050D199 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		12D666D00888D046BD4151B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -599,6 +629,7 @@
 				45E77737271B509700FC6CB9 /* StoriesAnimator.swift in Sources */,
 				45F5062C271AC9EA0094FBF0 /* QRScanPage.swift in Sources */,
 				1091C263271A881A002CA057 /* FamilyStatusPickerDataSource.swift in Sources */,
+				10F69C5A271BEA2D0050D199 /* MainPage.swift in Sources */,
 				45E77740271B853C00FC6CB9 /* BasketClickableView.swift in Sources */,
 				1091C2B6271B4F61002CA057 /* QRView.swift in Sources */,
 				1091C25D271A7C4A002CA057 /* EmploymentTypePickerDelegate.swift in Sources */,
@@ -623,6 +654,7 @@
 				1091C278271AA38D002CA057 /* LoanConfirmationView.swift in Sources */,
 				1091C2C4271B62B1002CA057 /* LoaderPage.swift in Sources */,
 				1091C225271A5BB0002CA057 /* LoanProcessPage.swift in Sources */,
+				10F69C5F271BEA470050D199 /* MainView.swift in Sources */,
 				1091C2C0271B5B79002CA057 /* SuccessView.swift in Sources */,
 				1091C244271A7443002CA057 /* Images.swift in Sources */,
 				1091C22A271A5CE4002CA057 /* LoanProcessView.swift in Sources */,
