@@ -33,10 +33,11 @@ final class SuccessPage: UIViewController {
     
     @objc func scanTouched() {
         self.navigationController?.popToRootViewController(animated: true)
-        self.navigationController?.viewControllers = [QRScanPage()]
+        self.navigationController?.viewControllers = [MainPage(), QRScanPage()]
     }
     
     @objc func mainTouched() {
         self.navigationController?.popToRootViewController(animated: true)
+        self.navigationController?.viewControllers = [MainPage()]
     }
 }

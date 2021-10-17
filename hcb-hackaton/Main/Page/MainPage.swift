@@ -19,9 +19,13 @@ final class MainPage: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        rootView.scanButton.addTarget(self, action: #selector(handleScan), for: .touchUpInside)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         navigationController?.navigationBar.barTintColor = Colors.red
         navigationController?.navigationBar.tintColor = UIColor.black
-        rootView.scanButton.addTarget(self, action: #selector(handleScan), for: .touchUpInside)
     }
     
     @objc func handleScan() {

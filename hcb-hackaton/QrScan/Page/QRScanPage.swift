@@ -88,12 +88,13 @@ final class QRScanPage: UIViewController {
         super.viewDidLoad()
         makeUI()
         setQR()
-        navigationController?.navigationBar.barTintColor = .white
         navigationController?.navigationBar.tintColor = UIColor.black
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        navigationController?.navigationBar.barTintColor = .white
+        navigationController?.navigationBar.tintColor = UIColor.black
         
         if captureSession?.isRunning == false {
             captureSession.startRunning()
